@@ -1,0 +1,24 @@
+*.mgcontent
+*.mgcb.cache
+.vscode/
+Content/
+obj/
+
+# Ignore bin folders in all projects
+**/bin/*
+
+# Ignore compilation artifacts not associated with mgcb
+*.dll
+*.exe
+*.pdb
+
+# Ignore raw assets like textures, fonts, etc.
+*.tga
+*.png
+*.ttf
+*.wav
+*.fnt
+*.spritefont
+
+#Ignore mac shit
+*.DS_STORE
